@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC6395221C46577A00AADB97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6395211C46577A00AADB97 /* main.m */; };
+		EC6395251C46577A00AADB97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6395241C46577A00AADB97 /* AppDelegate.m */; };
+		EC6395281C46577A00AADB97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6395271C46577A00AADB97 /* ViewController.m */; };
+		EC63952B1C46577A00AADB97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6395291C46577A00AADB97 /* Main.storyboard */; };
+		EC63952D1C46577A00AADB97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC63952C1C46577A00AADB97 /* Assets.xcassets */; };
+		EC6395301C46577A00AADB97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC63952E1C46577A00AADB97 /* LaunchScreen.storyboard */; };
+		EC63953B1C46577A00AADB97 /* DQYImage_TextButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC63953A1C46577A00AADB97 /* DQYImage_TextButtonTests.m */; };
+		EC6395461C46577A00AADB97 /* DQYImage_TextButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6395451C46577A00AADB97 /* DQYImage_TextButtonUITests.m */; };
+		EC6C49991C472C71009050BB /* DQYImage-TextBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6C49981C472C71009050BB /* DQYImage-TextBtn.m */; };
+		EC6C499D1C473422009050BB /* bar-location.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6C499A1C473422009050BB /* bar-location.png */; };
+		EC6C499E1C473422009050BB /* bar-location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6C499B1C473422009050BB /* bar-location@2x.png */; };
+		EC6C499F1C473422009050BB /* bar-location@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6C499C1C473422009050BB /* bar-location@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC6395371C46577A00AADB97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6395151C46577A00AADB97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC63951C1C46577A00AADB97;
+			remoteInfo = "DQYImage-TextButton";
+		};
+		EC6395421C46577A00AADB97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6395151C46577A00AADB97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC63951C1C46577A00AADB97;
+			remoteInfo = "DQYImage-TextButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC63951D1C46577A00AADB97 /* DQYImage-TextButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DQYImage-TextButton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6395211C46577A00AADB97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC6395231C46577A00AADB97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC6395241C46577A00AADB97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC6395261C46577A00AADB97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC6395271C46577A00AADB97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC63952A1C46577A00AADB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC63952C1C46577A00AADB97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC63952F1C46577A00AADB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC6395311C46577A00AADB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6395361C46577A00AADB97 /* DQYImage-TextButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DQYImage-TextButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC63953A1C46577A00AADB97 /* DQYImage_TextButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQYImage_TextButtonTests.m; sourceTree = "<group>"; };
+		EC63953C1C46577A00AADB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6395411C46577A00AADB97 /* DQYImage-TextButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DQYImage-TextButtonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6395451C46577A00AADB97 /* DQYImage_TextButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQYImage_TextButtonUITests.m; sourceTree = "<group>"; };
+		EC6395471C46577A00AADB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6C49971C472C71009050BB /* DQYImage-TextBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DQYImage-TextBtn.h"; sourceTree = "<group>"; };
+		EC6C49981C472C71009050BB /* DQYImage-TextBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DQYImage-TextBtn.m"; sourceTree = "<group>"; };
+		EC6C499A1C473422009050BB /* bar-location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-location.png"; sourceTree = "<group>"; };
+		EC6C499B1C473422009050BB /* bar-location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-location@2x.png"; sourceTree = "<group>"; };
+		EC6C499C1C473422009050BB /* bar-location@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-location@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC63951A1C46577A00AADB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6395331C46577A00AADB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC63953E1C46577A00AADB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC6395141C46577A00AADB97 = {
+			isa = PBXGroup;
+			children = (
+				EC63951F1C46577A00AADB97 /* DQYImage-TextButton */,
+				EC6395391C46577A00AADB97 /* DQYImage-TextButtonTests */,
+				EC6395441C46577A00AADB97 /* DQYImage-TextButtonUITests */,
+				EC63951E1C46577A00AADB97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC63951E1C46577A00AADB97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC63951D1C46577A00AADB97 /* DQYImage-TextButton.app */,
+				EC6395361C46577A00AADB97 /* DQYImage-TextButtonTests.xctest */,
+				EC6395411C46577A00AADB97 /* DQYImage-TextButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC63951F1C46577A00AADB97 /* DQYImage-TextButton */ = {
+			isa = PBXGroup;
+			children = (
+				EC6C499A1C473422009050BB /* bar-location.png */,
+				EC6C499B1C473422009050BB /* bar-location@2x.png */,
+				EC6C499C1C473422009050BB /* bar-location@3x.png */,
+				EC6395231C46577A00AADB97 /* AppDelegate.h */,
+				EC6395241C46577A00AADB97 /* AppDelegate.m */,
+				EC6395261C46577A00AADB97 /* ViewController.h */,
+				EC6395271C46577A00AADB97 /* ViewController.m */,
+				EC6C49971C472C71009050BB /* DQYImage-TextBtn.h */,
+				EC6C49981C472C71009050BB /* DQYImage-TextBtn.m */,
+				EC6395291C46577A00AADB97 /* Main.storyboard */,
+				EC63952C1C46577A00AADB97 /* Assets.xcassets */,
+				EC63952E1C46577A00AADB97 /* LaunchScreen.storyboard */,
+				EC6395311C46577A00AADB97 /* Info.plist */,
+				EC6395201C46577A00AADB97 /* Supporting Files */,
+			);
+			path = "DQYImage-TextButton";
+			sourceTree = "<group>";
+		};
+		EC6395201C46577A00AADB97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC6395211C46577A00AADB97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC6395391C46577A00AADB97 /* DQYImage-TextButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC63953A1C46577A00AADB97 /* DQYImage_TextButtonTests.m */,
+				EC63953C1C46577A00AADB97 /* Info.plist */,
+			);
+			path = "DQYImage-TextButtonTests";
+			sourceTree = "<group>";
+		};
+		EC6395441C46577A00AADB97 /* DQYImage-TextButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6395451C46577A00AADB97 /* DQYImage_TextButtonUITests.m */,
+				EC6395471C46577A00AADB97 /* Info.plist */,
+			);
+			path = "DQYImage-TextButtonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC63951C1C46577A00AADB97 /* DQYImage-TextButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC63954A1C46577A00AADB97 /* Build configuration list for PBXNativeTarget "DQYImage-TextButton" */;
+			buildPhases = (
+				EC6395191C46577A00AADB97 /* Sources */,
+				EC63951A1C46577A00AADB97 /* Frameworks */,
+				EC63951B1C46577A00AADB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DQYImage-TextButton";
+			productName = "DQYImage-TextButton";
+			productReference = EC63951D1C46577A00AADB97 /* DQYImage-TextButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC6395351C46577A00AADB97 /* DQYImage-TextButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC63954D1C46577A00AADB97 /* Build configuration list for PBXNativeTarget "DQYImage-TextButtonTests" */;
+			buildPhases = (
+				EC6395321C46577A00AADB97 /* Sources */,
+				EC6395331C46577A00AADB97 /* Frameworks */,
+				EC6395341C46577A00AADB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6395381C46577A00AADB97 /* PBXTargetDependency */,
+			);
+			name = "DQYImage-TextButtonTests";
+			productName = "DQYImage-TextButtonTests";
+			productReference = EC6395361C46577A00AADB97 /* DQYImage-TextButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC6395401C46577A00AADB97 /* DQYImage-TextButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6395501C46577A00AADB97 /* Build configuration list for PBXNativeTarget "DQYImage-TextButtonUITests" */;
+			buildPhases = (
+				EC63953D1C46577A00AADB97 /* Sources */,
+				EC63953E1C46577A00AADB97 /* Frameworks */,
+				EC63953F1C46577A00AADB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6395431C46577A00AADB97 /* PBXTargetDependency */,
+			);
+			name = "DQYImage-TextButtonUITests";
+			productName = "DQYImage-TextButtonUITests";
+			productReference = EC6395411C46577A00AADB97 /* DQYImage-TextButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6395151C46577A00AADB97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dqy;
+				TargetAttributes = {
+					EC63951C1C46577A00AADB97 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EC6395351C46577A00AADB97 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EC63951C1C46577A00AADB97;
+					};
+					EC6395401C46577A00AADB97 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EC63951C1C46577A00AADB97;
+					};
+				};
+			};
+			buildConfigurationList = EC6395181C46577A00AADB97 /* Build configuration list for PBXProject "DQYImage-TextButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC6395141C46577A00AADB97;
+			productRefGroup = EC63951E1C46577A00AADB97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC63951C1C46577A00AADB97 /* DQYImage-TextButton */,
+				EC6395351C46577A00AADB97 /* DQYImage-TextButtonTests */,
+				EC6395401C46577A00AADB97 /* DQYImage-TextButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC63951B1C46577A00AADB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6395301C46577A00AADB97 /* LaunchScreen.storyboard in Resources */,
+				EC6C499E1C473422009050BB /* bar-location@2x.png in Resources */,
+				EC6C499F1C473422009050BB /* bar-location@3x.png in Resources */,
+				EC63952D1C46577A00AADB97 /* Assets.xcassets in Resources */,
+				EC6C499D1C473422009050BB /* bar-location.png in Resources */,
+				EC63952B1C46577A00AADB97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6395341C46577A00AADB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC63953F1C46577A00AADB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6395191C46577A00AADB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6C49991C472C71009050BB /* DQYImage-TextBtn.m in Sources */,
+				EC6395281C46577A00AADB97 /* ViewController.m in Sources */,
+				EC6395251C46577A00AADB97 /* AppDelegate.m in Sources */,
+				EC6395221C46577A00AADB97 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6395321C46577A00AADB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC63953B1C46577A00AADB97 /* DQYImage_TextButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC63953D1C46577A00AADB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6395461C46577A00AADB97 /* DQYImage_TextButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC6395381C46577A00AADB97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC63951C1C46577A00AADB97 /* DQYImage-TextButton */;
+			targetProxy = EC6395371C46577A00AADB97 /* PBXContainerItemProxy */;
+		};
+		EC6395431C46577A00AADB97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC63951C1C46577A00AADB97 /* DQYImage-TextButton */;
+			targetProxy = EC6395421C46577A00AADB97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC6395291C46577A00AADB97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC63952A1C46577A00AADB97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC63952E1C46577A00AADB97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC63952F1C46577A00AADB97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC6395481C46577A00AADB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC6395491C46577A00AADB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC63954B1C46577A00AADB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DQYImage-TextButton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dqy.DQYImage-TextButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC63954C1C46577A00AADB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DQYImage-TextButton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dqy.DQYImage-TextButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC63954E1C46577A00AADB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DQYImage-TextButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dqy.DQYImage-TextButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DQYImage-TextButton.app/DQYImage-TextButton";
+			};
+			name = Debug;
+		};
+		EC63954F1C46577A00AADB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DQYImage-TextButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dqy.DQYImage-TextButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DQYImage-TextButton.app/DQYImage-TextButton";
+			};
+			name = Release;
+		};
+		EC6395511C46577A00AADB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DQYImage-TextButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dqy.DQYImage-TextButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DQYImage-TextButton";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC6395521C46577A00AADB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DQYImage-TextButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dqy.DQYImage-TextButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DQYImage-TextButton";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6395181C46577A00AADB97 /* Build configuration list for PBXProject "DQYImage-TextButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6395481C46577A00AADB97 /* Debug */,
+				EC6395491C46577A00AADB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC63954A1C46577A00AADB97 /* Build configuration list for PBXNativeTarget "DQYImage-TextButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC63954B1C46577A00AADB97 /* Debug */,
+				EC63954C1C46577A00AADB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC63954D1C46577A00AADB97 /* Build configuration list for PBXNativeTarget "DQYImage-TextButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC63954E1C46577A00AADB97 /* Debug */,
+				EC63954F1C46577A00AADB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6395501C46577A00AADB97 /* Build configuration list for PBXNativeTarget "DQYImage-TextButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6395511C46577A00AADB97 /* Debug */,
+				EC6395521C46577A00AADB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC6395151C46577A00AADB97 /* Project object */;
+}
